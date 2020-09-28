@@ -10,13 +10,8 @@ export NUMTHREADS=36
 module load ug/gnu/parallel-20190122
 module load anaconda/3
 module load library/libicu/50.2
-#source activate falconfk
 module load openmpi-3.0.0
 module load java/8
-#source activate r-tensorflow
-
-#alias python3=python3.6
-#conda install tensorflow-gpu
 
 module load python/3.6.8
 module load R/3.6
